@@ -1,0 +1,91 @@
+{
+    "incomeExpenses": [
+        {
+            "type": "income",
+            "amount": 1500,
+            "date": "2024-07-01T00:00:00Z"
+        },
+        {
+            "type": "expense",
+            "amount": 800,
+            "date": "2024-07-01T00:00:00Z"
+        },
+        {
+            "type": "income",
+            "amount": 2000,
+            "date": "2024-07-02T00:00:00Z"
+        },
+        {
+            "type": "expense",
+            "amount": 1200,
+            "date": "2024-07-02T00:00:00Z"
+        }
+        // Add more entries as needed
+    ],
+    "payments": [
+        {
+            "mode": "credit card",
+            "amount": 500,
+            "date": "2024-07-01T00:00:00Z"
+        },
+        {
+            "mode": "debit card",
+            "amount": 300,
+            "date": "2024-07-02T00:00:00Z"
+        },
+        {
+            "mode": "online",
+            "amount": 700,
+            "date": "2024-07-02T00:00:00Z"
+        }
+        // Add more entries as needed
+    ],
+    "orders": {
+        "delivered": [
+            {
+                "count": 10,
+                "date": "2024-07-01T00:00:00Z"
+            },
+            {
+                "count": 15,
+                "date": "2024-07-02T00:00:00Z"
+            }
+            // Add more entries as needed
+        ],
+        "returned": [
+            {
+                "count": 2,
+                "date": "2024-07-01T00:00:00Z"
+            },
+            {
+                "count": 3,
+                "date": "2024-07-02T00:00:00Z"
+            }
+            // Add more entries as needed
+        ]
+    },
+    "orderTypes": {
+        "online": [
+            {
+                "count": 8,
+                "date": "2024-07-01T00:00:00Z"
+            },
+            {
+                "count": 12,
+                "date": "2024-07-02T00:00:00Z"
+            }
+            // Add more entries as needed
+        ],
+        "offline": [
+            {
+                "count": 2,
+                "date": "2024-07-01T00:00:00Z"
+            },
+            {
+                "count": 3,
+                "date": "2024-07-02T00:00:00Z"
+            }
+            // Add more entries as needed
+        ]
+    }
+}
